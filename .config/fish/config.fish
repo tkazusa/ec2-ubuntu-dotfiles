@@ -4,6 +4,7 @@ export TERM=xterm-256color
 set --universal -x GOPATH $HOME/go
 set -x PATH /usr/local/go/bin $GOPATH/bin $HOME/.loval/bin $PATH  
 set -x PATH $HOME/.local/bin $HOME/.cargo/bin $PATH
+set -x PATH $HOME/.awscli/aws $PATH
 set -U FZF_LEGACY_KEYBINDINGS 0
 set -g fisher_path $HOME/dotfiles/.config/fish
 

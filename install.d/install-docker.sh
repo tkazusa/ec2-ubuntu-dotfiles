@@ -2,7 +2,7 @@
 APT_CMD="sudo apt install -y"
 
 # Repogitory preparation
-APT_CMD \
+$APT_CMD \
     apt-transport-https \
     ca-certificates \
     curl \
@@ -18,4 +18,4 @@ sudo add-apt-repository \
 
 # Install Docker community  
 sudo apt update  
-APT_CMD docker-ce docker-ce-cli containerd.io
+$APT_CMD docker-ce docker-ce-cli containerd.io
