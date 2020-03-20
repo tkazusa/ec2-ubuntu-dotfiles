@@ -3,6 +3,7 @@ export TERM=xterm-256color
 
 set --universal -x GOPATH $HOME/go
 set -x PATH /usr/local/go/bin $GOPATH/bin $HOME/.loval/bin $PATH  
+set -x PATH $HOME/.local/bin $HOME/.cargo/bin $PATH
 set -U FZF_LEGACY_KEYBINDINGS 0
 set -g fisher_path $HOME/dotfiles/.config/fish
 
@@ -17,6 +18,8 @@ alias gp 'git push'
 alias gd 'git add .;git commit -m "mod";git push origin master'
 alias pc 'peco'
 alias jl 'jupyter lab --allow-root'
+alias python 'python3'
+alias pip 'pip3'
 
 function fish_prompt
     set pwd (set_color green)(prompt_pwd)

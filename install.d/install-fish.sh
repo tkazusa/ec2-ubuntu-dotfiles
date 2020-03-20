@@ -1,5 +1,5 @@
 #!/bin/bash
-APT_CMD="apt install -y"
+APT_CMD="sudo apt install -y"
 
 # fish
 sudo apt-add-repository ppa:fish-shell/release-3
