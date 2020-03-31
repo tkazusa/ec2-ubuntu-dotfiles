@@ -12,6 +12,7 @@ source $DOTDIR/install.d/install-docker.sh
 source $DOTDIR/install.d/install-cdk.sh
 source $DOTDIR/install.d/pip.sh
 source $DOTDIR/install.d/install-fish.sh
+source $DOTDIR/install.d/install-amplify.sh
 source $DOTDIR/install.d/link.sh
 
 # -------------------
