@@ -6,4 +6,5 @@ pip3 install
 	flake8 \
 	isort \
 	black \
+	mypy \
 	python-language-server
