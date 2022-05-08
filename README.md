@@ -2,6 +2,8 @@
 ## Setup EC2 Instance
 - g4dn.12xlarge
 - Deep Learning AMI (Ubuntu 18.04) Version 59.0
+- Open a port 8888 to access Jypyuter
+
 
 ## Launch Jypyter Lab
 ```
