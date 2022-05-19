@@ -22,3 +22,6 @@ $ ssh -i ~/mykeypair.pem -N -f -L 9999:localhost:9999 ubuntu@ec2-###-##-##-###.c
 $ git clone -b deeplearning-ami https://github.com/tkazusa/ec2-ubuntu-dotfiles.git ~/.dotfiles
 $ ~/.dotfiles/setup.sh
 ```
+
+### EC2 のストレージ拡張
+[EC2ボリューム拡張.md](https://gist.github.com/tkazusa/c04d289069668a5586f98c8b42f2f8fd)を参照。
