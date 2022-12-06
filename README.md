@@ -1,7 +1,7 @@
 # ec2-ubuntu-dotfiles
 ## Setup EC2 Instance
 - g4dn.12xlarge
-- Deep Learning AMI (Ubuntu 18.04) Version 59.0
+- Deep Learning AMI GPU PyTorch 1.13.0 (Ubuntu 20.04)
 - Open a port 8888 to access Jypyuter
 
 
