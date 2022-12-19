@@ -4,7 +4,7 @@ DOTDIR=$HOME/.dotfiles
 # --------------------
 # Install packages
 # --------------------
-# source $DOTDIR/install.d/apt.sh
+source $DOTDIR/install.d/apt.sh
 # source $DOTDIR/install.d/install-nodejs.sh
 # source $DOTDIR/install.d/install-rust.sh
 # source $DOTDIR/install.d/install-awscli2.sh
